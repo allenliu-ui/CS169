@@ -4,3 +4,14 @@ gem 'sinatra'
 gem 'rackup'
 gem 'puma'
 gem 'sinatra-flash'
+
+group :development, :test do
+  gem 'rspec'
+  gem 'cucumber'
+  gem 'capybara'
+  gem 'launchy'
+  gem 'simplecov'
+  gem 'rack_session_access'
+  gem 'byebug'
+  gem 'webmock'
+end
